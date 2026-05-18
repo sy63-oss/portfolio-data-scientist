@@ -1,5 +1,5 @@
 import React from "react";
-import { Mail, Phone, MapPin, Link, Cloud, Brain, Code2, Database, Rocket, Award, BriefcaseBusiness, Github } from "lucide-react";
+import { Mail, Phone, MapPin, Link, Cloud, Brain, Code2, Database, Rocket, Award, BriefcaseBusiness, ExternalLink } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 
@@ -120,7 +120,7 @@ export default function PortfolioAbiboulayeSY() {
                     <h3 className="text-2xl font-bold">{project.title}</h3>
                     {project.github && (
                       <a href={project.github} target="_blank" rel="noopener noreferrer" className="mt-1 shrink-0 text-slate-500 hover:text-slate-800">
-                        <Github size={20} />
+                        <ExternalLink size={18} />
                       </a>
                     )}
                   </div>
