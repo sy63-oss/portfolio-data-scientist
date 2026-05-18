@@ -55,8 +55,12 @@ export default function PortfolioAbiboulayeSY() {
                 3 ans d’expérience sur le cycle de vie complet des modèles ML en production : feature engineering, scoring, monitoring et ré-entraînement automatique. Certifié AWS ML Specialty. Expérimenté GCP (Vertex AI, BigQuery, Cloud Composer).
               </p>
               <div className="mt-8 flex flex-wrap gap-3">
-                <Button className="rounded-2xl bg-blue-500 px-6 hover:bg-blue-600">Me contacter</Button>
-                <Button variant="outline" className="rounded-2xl border-white/30 bg-white/10 px-6 text-white hover:bg-white/20">Télécharger le CV</Button>
+                <a href="mailto:abiboulaye.sy.pro@gmail.com">
+                  <Button className="rounded-2xl bg-blue-500 px-6 hover:bg-blue-600">Me contacter</Button>
+                </a>
+                <a href="https://drive.google.com/uc?export=download&id=1EEyTZ3YjXGPZTs54DGnL_Qnrz09Lqm1p" target="_blank" rel="noopener noreferrer">
+                  <Button variant="outline" className="rounded-2xl border-white/30 bg-white/10 px-6 text-white hover:bg-white/20">Télécharger le CV</Button>
+                </a>
               </div>
             </div>
 
