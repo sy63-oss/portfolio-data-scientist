@@ -153,7 +153,7 @@ export default function PortfolioAbiboulayeSY() {
             <CardContent className="p-6">
               <h2 className="text-2xl font-bold">Ce que je recherche</h2>
               <p className="mt-5 leading-8 text-slate-200">
-                Mission MLOps Engineer ou ML Engineer — idéalement sur des problématiques Supply Chain (prévision de demande, détection de ruptures, scoring fournisseurs) ou tout domaine nécessitant l'industrialisation de modèles ML en production sur AWS ou GCP.
+                Mission MLOps Engineer ou ML Engineer — idéalement sur des problématiques Supply Chain (prévision de demande, détection de ruptures, scoring fournisseurs) ou tout domaine nécessitant l&apos;industrialisation de modèles ML en production sur AWS ou GCP.
               </p>
               <div className="mt-6 flex flex-wrap gap-2">
                 {['MLOps', 'AWS / GCP', 'Supply Chain', 'Français natif', 'Anglais professionnel', 'Esprit conseil'].map((item) => (
