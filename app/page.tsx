@@ -40,6 +40,19 @@ export default function PortfolioAbiboulayeSY() {
       stack: "Python · SARIMA · PySpark · SQL · GCP",
       github: null,
     },
+    {
+      title: "Système de prédiction de churn",
+      context: "Projet MLOps — ML Engineer",
+      result: "Pipeline ML complet de bout en bout : preprocessing validé (Great Expectations), entraînement tracké avec MLflow (AUC 0.84), API FastAPI containerisée avec Docker, et monitoring de drift statistique (KS test / Chi-square). Architecture en 5 couches couvrant données, entraînement, packaging, déploiement et monitoring.",
+      stack: "Python · scikit-learn · MLflow · FastAPI · Docker · Great Expectations · DVC · Pydantic · ruff · pre-commit",
+      github: "https://gitlab.com/sy63-oss/churn-prediction",
+    },
+    {
+      title: "Pipelines RAG & NLP",
+      context: "Projet IA — Recherche documentaire augmentée (en cours)",
+      result: "Expérimentation de pipelines RAG avec embeddings et modèles Transformers.",
+      stack: "Hugging Face · Vector DB · Python · Prompt Engineering",
+    },
   ];
 
   return (
